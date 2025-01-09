@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f44336;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+#sos-button {
+    background-color: white;
+    color: #f44336;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#sos-button:hover {
+    background-color: #ff726f;
+    color: white;
+    transform: scale(1.1);
+}
